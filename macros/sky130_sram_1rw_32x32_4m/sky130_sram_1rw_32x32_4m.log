@@ -1,0 +1,2 @@
+[2026-09-11 18:32:42.707201] ERROR: file globals.py: line 290: magic not found. Cannot find DRC tool.Disable DRC/LVS with check_lvsdrc=False to ignore.
+

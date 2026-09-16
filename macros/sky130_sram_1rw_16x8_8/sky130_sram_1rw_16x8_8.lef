@@ -1,0 +1,387 @@
+VERSION 5.4 ;
+NAMESCASESENSITIVE ON ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+UNITS
+  DATABASE MICRONS 2000 ;
+END UNITS
+MACRO sky130_sram_1rw_16x8_8
+   CLASS BLOCK ;
+   SIZE 193.14 BY 145.47 ;
+   SYMMETRY X Y R90 ;
+   PIN din0[0]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  76.44 0.0 76.82 0.38 ;
+      END
+   END din0[0]
+   PIN din0[1]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  82.28 0.0 82.66 0.38 ;
+      END
+   END din0[1]
+   PIN din0[2]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  88.12 0.0 88.5 0.38 ;
+      END
+   END din0[2]
+   PIN din0[3]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  93.96 0.0 94.34 0.38 ;
+      END
+   END din0[3]
+   PIN din0[4]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  99.8 0.0 100.18 0.38 ;
+      END
+   END din0[4]
+   PIN din0[5]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  105.64 0.0 106.02 0.38 ;
+      END
+   END din0[5]
+   PIN din0[6]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  111.48 0.0 111.86 0.38 ;
+      END
+   END din0[6]
+   PIN din0[7]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  117.32 0.0 117.7 0.38 ;
+      END
+   END din0[7]
+   PIN din0[8]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  123.16 0.0 123.54 0.38 ;
+      END
+   END din0[8]
+   PIN din0[9]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  129.0 0.0 129.38 0.38 ;
+      END
+   END din0[9]
+   PIN din0[10]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  134.84 0.0 135.22 0.38 ;
+      END
+   END din0[10]
+   PIN din0[11]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  140.68 0.0 141.06 0.38 ;
+      END
+   END din0[11]
+   PIN din0[12]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  146.52 0.0 146.9 0.38 ;
+      END
+   END din0[12]
+   PIN din0[13]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  152.36 0.0 152.74 0.38 ;
+      END
+   END din0[13]
+   PIN din0[14]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  158.2 0.0 158.58 0.38 ;
+      END
+   END din0[14]
+   PIN din0[15]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  164.04 0.0 164.42 0.38 ;
+      END
+   END din0[15]
+   PIN din0[16]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  169.88 0.0 170.26 0.38 ;
+      END
+   END din0[16]
+   PIN addr0[0]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  51.54 145.09 51.92 145.47 ;
+      END
+   END addr0[0]
+   PIN addr0[1]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  54.515 145.09 54.895 145.47 ;
+      END
+   END addr0[1]
+   PIN addr0[2]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  53.825 145.09 54.205 145.47 ;
+      END
+   END addr0[2]
+   PIN addr0[3]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  53.08 145.09 53.46 145.47 ;
+      END
+   END addr0[3]
+   PIN csb0
+      DIRECTION INPUT ;
+      PORT
+         LAYER met3 ;
+         RECT  0.0 14.87 0.38 15.25 ;
+      END
+   END csb0
+   PIN web0
+      DIRECTION INPUT ;
+      PORT
+         LAYER met3 ;
+         RECT  0.0 23.37 0.38 23.75 ;
+      END
+   END web0
+   PIN clk0
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  31.1 0.0 31.48 0.38 ;
+      END
+   END clk0
+   PIN wmask0[0]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  64.76 0.0 65.14 0.38 ;
+      END
+   END wmask0[0]
+   PIN wmask0[1]
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  70.6 0.0 70.98 0.38 ;
+      END
+   END wmask0[1]
+   PIN spare_wen0
+      DIRECTION INPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  175.72 0.0 176.1 0.38 ;
+      END
+   END spare_wen0
+   PIN dout0[0]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  112.71 0.0 113.09 0.38 ;
+      END
+   END dout0[0]
+   PIN dout0[1]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  115.18 0.0 115.56 0.38 ;
+      END
+   END dout0[1]
+   PIN dout0[2]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  118.01 0.0 118.39 0.38 ;
+      END
+   END dout0[2]
+   PIN dout0[3]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  120.18 0.0 120.56 0.38 ;
+      END
+   END dout0[3]
+   PIN dout0[4]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  121.33 0.0 121.71 0.38 ;
+      END
+   END dout0[4]
+   PIN dout0[5]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  125.18 0.0 125.56 0.38 ;
+      END
+   END dout0[5]
+   PIN dout0[6]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  126.33 0.0 126.71 0.38 ;
+      END
+   END dout0[6]
+   PIN dout0[7]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  130.12 0.0 130.5 0.38 ;
+      END
+   END dout0[7]
+   PIN dout0[8]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  132.71 0.0 133.09 0.38 ;
+      END
+   END dout0[8]
+   PIN dout0[9]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  135.53 0.0 135.91 0.38 ;
+      END
+   END dout0[9]
+   PIN dout0[10]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  136.33 0.0 136.71 0.38 ;
+      END
+   END dout0[10]
+   PIN dout0[11]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  138.8 0.0 139.18 0.38 ;
+      END
+   END dout0[11]
+   PIN dout0[12]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met4 ;
+         RECT  141.39 0.0 141.77 0.38 ;
+      END
+   END dout0[12]
+   PIN dout0[13]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met3 ;
+         RECT  192.76 52.275 193.14 52.655 ;
+      END
+   END dout0[13]
+   PIN dout0[14]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met3 ;
+         RECT  192.76 49.26 193.14 49.64 ;
+      END
+   END dout0[14]
+   PIN dout0[15]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met3 ;
+         RECT  192.76 49.95 193.14 50.33 ;
+      END
+   END dout0[15]
+   PIN dout0[16]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER met3 ;
+         RECT  192.76 50.695 193.14 51.075 ;
+      END
+   END dout0[16]
+   PIN vccd1
+      DIRECTION INOUT ;
+      USE POWER ; 
+      SHAPE ABUTMENT ; 
+      PORT
+      END
+   END vccd1
+   PIN vssd1
+      DIRECTION INOUT ;
+      USE GROUND ; 
+      SHAPE ABUTMENT ; 
+      PORT
+      END
+   END vssd1
+   OBS
+   LAYER  met1 ;
+      RECT  0.62 0.62 192.52 144.85 ;
+   LAYER  met2 ;
+      RECT  0.62 0.62 192.52 144.85 ;
+   LAYER  met3 ;
+      RECT  0.62 0.62 0.98 14.27 ;
+      RECT  0.98 0.62 192.52 14.27 ;
+      RECT  0.98 14.27 192.52 15.85 ;
+      RECT  0.62 15.85 0.98 22.77 ;
+      RECT  0.62 24.35 0.98 144.85 ;
+      RECT  0.98 15.85 192.16 51.675 ;
+      RECT  0.98 51.675 192.16 53.255 ;
+      RECT  0.98 53.255 192.16 144.85 ;
+      RECT  192.16 53.255 192.52 144.85 ;
+      RECT  192.16 15.85 192.52 48.66 ;
+   LAYER  met4 ;
+      RECT  75.84 0.98 77.42 144.85 ;
+      RECT  77.42 0.98 192.52 144.85 ;
+      RECT  77.42 0.62 81.68 0.98 ;
+      RECT  83.26 0.62 87.52 0.98 ;
+      RECT  89.1 0.62 93.36 0.98 ;
+      RECT  94.94 0.62 99.2 0.98 ;
+      RECT  100.78 0.62 105.04 0.98 ;
+      RECT  106.62 0.62 110.88 0.98 ;
+      RECT  147.5 0.62 151.76 0.98 ;
+      RECT  153.34 0.62 157.6 0.98 ;
+      RECT  159.18 0.62 163.44 0.98 ;
+      RECT  165.02 0.62 169.28 0.98 ;
+      RECT  0.62 0.98 50.94 144.49 ;
+      RECT  0.62 144.49 50.94 144.85 ;
+      RECT  50.94 0.98 52.52 144.49 ;
+      RECT  52.52 0.98 75.84 144.49 ;
+      RECT  55.495 144.49 75.84 144.85 ;
+      RECT  0.62 0.62 30.5 0.98 ;
+      RECT  32.08 0.62 64.16 0.98 ;
+      RECT  65.74 0.62 70.0 0.98 ;
+      RECT  71.58 0.62 75.84 0.98 ;
+      RECT  170.86 0.62 175.12 0.98 ;
+      RECT  176.7 0.62 192.52 0.98 ;
+      RECT  113.69 0.62 114.58 0.98 ;
+      RECT  116.16 0.62 116.72 0.98 ;
+      RECT  118.99 0.62 119.58 0.98 ;
+      RECT  122.31 0.62 122.56 0.98 ;
+      RECT  124.14 0.62 124.58 0.98 ;
+      RECT  127.31 0.62 128.4 0.98 ;
+      RECT  131.1 0.62 132.11 0.98 ;
+      RECT  133.69 0.62 134.24 0.98 ;
+      RECT  137.31 0.62 138.2 0.98 ;
+      RECT  139.78 0.62 140.08 0.98 ;
+      RECT  142.37 0.62 145.92 0.98 ;
+   END
+END    sky130_sram_1rw_16x8_8
+END    LIBRARY
